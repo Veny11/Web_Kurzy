@@ -19,29 +19,95 @@
 </header>
 <img src="Sources/MainPredni.png" alt="" class="image-front">
 <img src="Sources/MainSpodni.png" alt="" class="image-back">
-<main id="AboutMe">
+<main id="courses">
     <h1>Studuj, co tě baví</h1>
     <div class="coursesCont">
         <div class="Up">
             <a href="">
-                <img src="" alt="">
+                <img src="Sources/Anglie.jpg" alt="" class="flag">
+            </a>
+            <a href="">
+                <img src="Sources/Francie.jpg" alt="" class="flag">
             </a>
         </div>
         <div class="Down">
-            <a href="">
-                <img src="" alt="">
-            </a>
-            <a href="">
-                <img src="" alt="">
-            </a>
+        <a href="">
+            <img src="Sources/VajcoMoney.png" alt="" class="finance">
+        </a>
+    </div>
+    </div>
+</main>
+<main id="AboutMe">
+    <div id="AboutMeCont">
+        <div class="left">
+            <img src="Sources/woman.jpg" alt="" class="photo">
+            <h2>Ing. Věra Koubová</h2>
+        </div>
+        <div class="right">
+            <p>
+                Vystudovala tříleté nadstavbové studium cestovního ruchu v Karlových Varech, dále pak
+                kombinované magisterské studium v oboru Veřejná správa v EU a finanční plánování
+                na Vysoké škole finanční a správní Praha. Pracovala dlouhé roky v PR a v ekonomice
+                podnikání v průmyslových nadnárodních společnostech. Absolvovala množství
+                krátkodobých odborných kurzů k finanční gramotnosti. Vykonala státní jazykovou
+                zkoušku z francouzštiny, dále Cambridge B2 zkoušku z angličtiny. Pět let vyučovala
+                na ZŠ Libochovice Finanční gramotnost a angličtinu na 2. stupni ZŠ. Jazykům se
+                věnuje dlouhodobě, absolvovala řadu jazykových odborných kurzů, vedla jako lektor
+                individuální výuku i kurzy v rámci Mezinárodního jazykového institutu. Absolvovala
+                také Program celoživotního vzdělávání – studium v oblasti pedagogických věd –
+                Učitelství 2. stupně ZŠ Univerzity J. E. Purkyně v Ústí nad Labem. Vykonala zkoušku
+                z Pedagogiky, Psychologie, Didaktiky všeobecně vzdělávacích předmětů.
+            </p>
         </div>
     </div>
 </main>
-<div id="ContactMe">
+<img src="Sources/Stred2.png" alt="" class="mid" id="frontMid">
+<img src="Sources/Stred.png" alt="" class="mid" id="backMid">
+<main id="ContactMe">
+    <div class="contactMeCont">
+        <form action="" method="get">
+            <h2>Kontaktujte mě</h2>
 
-</div>
+            <div class="gridCont">
+                <div class="inputCont">
+                    <input type="text" id="Name" placeholder="Zadejte jméno">
+                </div>
+
+                <div class="inputCont">
+                    <input type="text" id="Surname" placeholder="Zadejte přijmení">
+                </div>
+
+                <div class="inputCont">
+                    <input type="email" id="Mail" placeholder="Zadejte email">
+                </div>
+
+                <div class="inputCont">
+                    <input type="number" id="age" placeholder="Zadejte věk" min="12" max="100">
+                </div>
+            </div>
+
+            <div class="inputCont">
+                <select id="Course">
+                    <option value="" selected>Kurz</option>
+                    <option value="1">Angličtina</option>
+                    <option value="2">Francouzština</option>
+                    <option value="3">Finance</option>
+                </select>
+            </div>
+
+            <div class="inputCont">
+                <textarea id="Message" placeholder="Zde napište zprávu"></textarea>
+            </div>
+
+            <button type="submit">Odeslat</button>
+        </form>
+    </div>
+</main>
+<img src="Sources/SpodniPredni.png" alt="" class="DownBackgrnd" id="downFr">
+<img src="Sources/SpodniZadni.png" alt="" class="DownBackgrnd" id="downBck">
 <footer>
 
 </footer>
 </body>
+<script src="script.js"></script>
 </html>
